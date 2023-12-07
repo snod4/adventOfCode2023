@@ -27,8 +27,9 @@ fn main() {
     println!("{}", sum);
 }
 
-is_word(val:&str)-> {
+fn is_word(val: &str) -> bool {
     //implment word number match and convert to number
+    //Learn about enums
 }
 
 fn get_next_digit(val: &String) -> Option<char> {
